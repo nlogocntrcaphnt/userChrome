@@ -6,16 +6,21 @@ Ultra-minimalist userChrome.css Firefox theme
 <summary>Preparation for Installation (Enabling Firefox Custom CSS)</summary>
 
 1.Open a new tab in Mozilla Firefox.
-
-2.Type ```
+2.Type 
+```
 about:config
-``` in the address bar. Confirm that you will be careful if a warning message appears for you.
+``` 
+
+in the address bar. Confirm that you will be careful if a warning message appears for you.
 
 
 3. Enter the following text in the search 
+
 ```
 box: toolkit.legacyUserProfileCustomizations.stylesheets
 ```
+
+
 4.Set the option to True
 
 </details>
@@ -23,14 +28,15 @@ box: toolkit.legacyUserProfileCustomizations.stylesheets
 <details>
 
 <summary>Locating Chrome folder.</summary>
-* Windows 
+
+* Windows
 ```C:\Documents and Settings\XXXXXXX\Application Data\Mozilla\Firefox\Profiles\
 ```
 
 
 
 
-* Linux
+*Linux
 ```/home/XXXXXXX/.mozilla/firefox/```
 (CTR + H to make hidden folders in your home directory appear)
 
